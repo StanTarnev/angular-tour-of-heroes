@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
@@ -12,6 +11,7 @@ import { MessagesComponent } from './components/messages.component';
 import { DashboardComponent } from './components/dashboard.component';
 import { HeroSearchComponent } from './components/hero-search.component';
 import { HeroesComponent } from './components/heroes.component';
+import { HeroDetailComponent } from './components/hero-detail.component';
 
 @NgModule({
   declarations: [
